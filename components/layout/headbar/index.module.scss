@@ -1,0 +1,89 @@
+.main {
+  position: fixed;
+  background-color: #849e7b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 10;
+  height: 60px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.logoImg {
+  height: 100%;
+}
+.allSearch {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 5px;
+  width: 100%;
+}
+.navInput {
+  width: 100%;
+  padding-left: 1%;
+}
+.navInput:focus {
+  outline: none;
+}
+
+.userImg {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  object-fit: fill;
+}
+.userImg:hover {
+  cursor: pointer;
+}
+
+.modal {
+  z-index: 10;
+  right: 3.5%;
+  position: fixed;
+  top: 9%;
+  border-radius: 10%;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px 1px #72856c;
+}
+.modalItem {
+  background-color: whitesmoke;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 35px;
+}
+.modalItem:hover {
+  background-color: #72856c;
+  transition: 0.25s;
+}
+.searchHistory {
+  position: fixed;
+  top: 6.5%;
+  left: 38%;
+  background-color: antiquewhite;
+  width: 27%;
+  // margin-left: 2%;
+}
+.forHistory {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+}
+.oneHistory {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.crossHistory {
+  cursor: pointer;
+  width: 10px;
+}
+.hr {
+  color: aqua;
+}
